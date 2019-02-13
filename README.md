@@ -1,11 +1,8 @@
 # Improved_random.choices
-# I have improved Python 3's built-in function random.choices() from O(N**2) to O(N)
+# I have improved Python 3.x's built-in function random.choices() from O(N**2) to O(N)
 
+# Compare Shawn's code without random.choices() that is O(N) to the code with Py3 BIF random.choices() that is O(N**2).
 
-
-
-
-# Compare Shawn's code without random.choices() on lines 14-35 to the same much slower code with random.choices() on lines 37-59.
 from datetime import datetime
 import random
 
